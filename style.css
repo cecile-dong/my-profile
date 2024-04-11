@@ -1,0 +1,121 @@
+/*colors and fonts*/
+body {
+	background-color: rgb(246,246,246);
+	color: black;
+	font-family: arial;
+	font-size: 16px;
+}
+
+
+h1 {
+    font-family: "Roboto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:500 ;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100,
+    "GRAD" 0;
+}
+
+h2 {
+	font-family: "Roboto", sans-serif;
+  font-weight: 420;
+  font-style: normal;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	letter-spacing: 1px;
+
+}
+a:hover {
+	color: #C5A760;
+}
+
+/*Custom design with class*/
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media(max-width: 760px) {
+	.container{
+		width: 600px;
+	}
+}
+
+
+@media(max-width: 500px) {
+	.container{
+		width: 400px;
+	}
+}
+
+.card-white{
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,.1)
+	border-radius: 4px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+
+.img-circle {	
+	width: 100px;
+	border-radius: 50%
+}
+
+.img-square{
+	width: 100px;
+	border-radius: 15%;
+	margin: 20px;
+	border: 1px black solid;
+}
+
+.img-box{
+	width: 150px;
+	border-radius: 0%;
+	margin: 20px 10px;
+	padding: 10px auto;
+	border: 1px black solid;
+}
+
+.btn-orange{
+	background-color: #C5A760;
+	color: white;
+	padding: 12px 15px;
+	margin: 30px;
+	border-radius: 2px;	
+}
+
+.btn-orange:hover{
+	background-color: black;
+	color: rgb(246,246,246);
+}
+
+.btn-img:hover{
+	border:3px black solid;
+}
+
+.list-inline{
+list-style: none;
+padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i{
+	font-size: 40px;
+}
+
+/*Adjustments with id*/
+
+#intro p {
+	margin-bottom: 40px;
+}
